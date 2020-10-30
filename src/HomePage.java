@@ -265,7 +265,7 @@ driver.quit();
         driver.findElement(By.cssSelector("#nav-search-submit-text > input")).click();
 
 //enter toys  in search box wenedit field
-        driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("women's fashion");
+        driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).sendKeys("women's fashion");
         Thread.sleep(7000);
     }
 
@@ -331,7 +331,7 @@ driver.quit();
 //enter toys  in search box wenedit field
 
 //search "jewelry" in search box
-        driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys( "jewelry");
+        driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).sendKeys( "jewelry");
         //Click on search button
 
 
